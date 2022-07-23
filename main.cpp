@@ -6,7 +6,7 @@ main() {
     float x;
     float racx;
     const int ntime = 5;
-    cout <<"Hello eautiful person\n";
+    cout <<"Hello beautiful person\n";
     cout <<"I'm gonna a calculation of " <<ntime <<" square root\n";
     for (i=0; i<ntime; i++){
         cout <<"Give a number : ";
