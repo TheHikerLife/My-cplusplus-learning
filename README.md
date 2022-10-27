@@ -38,8 +38,6 @@
 
   <p align="center">
     Code wrote on a way to learn c++
-
-    <br />
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
