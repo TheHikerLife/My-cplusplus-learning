@@ -34,7 +34,7 @@
    <img src="Images\TheHikerLife.png" alt="Logo" width="100" height="100">
   </a>
 
-<h3 align="center">My c++ road</h3>
+<h3 align="center">The Hiker c++ road</h3>
 
   <p align="center">
     project_description
