@@ -37,7 +37,7 @@
 <h3 align="center">The Hiker c++ road</h3>
 
   <p align="center">
-    project_description
+    Code wrote on a way to learn c++
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
