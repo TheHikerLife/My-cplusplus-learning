@@ -39,7 +39,7 @@
   <p align="center">
     Code wrote on a way to learn c++
     <br />
-    <a href="">https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwjrw__874D7AhUKahoKHbGdAesQtwJ6BAgIEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8jLOx1hD3_o&usg=AOvVaw1DlCFxwm3TwytxxX7l8qV5<strong>Explore the docs »</strong></a>
+    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwjrw__874D7AhUKahoKHbGdAesQtwJ6BAgIEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8jLOx1hD3_o&usg=AOvVaw1DlCFxwm3TwytxxX7l8qV5"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
