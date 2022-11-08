@@ -1,6 +1,13 @@
 #include <iostream>
-using namespace std;
+
 int main() {
-    auto result = (10 <= 20) > 0;
-    cout << result << endl;
+
+  std::string first_name;
+
+  std::cout << "Enter your first name: ";
+  std::cin >> first_name;
+  std::cout << "Hello " << first_name << "!" << std::endl;
+  std::cout << "Welcome!";
+
+  return 0;
 }
