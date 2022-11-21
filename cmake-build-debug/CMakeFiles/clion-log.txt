@@ -1,4 +1,7 @@
 "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning" -B "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug"
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug

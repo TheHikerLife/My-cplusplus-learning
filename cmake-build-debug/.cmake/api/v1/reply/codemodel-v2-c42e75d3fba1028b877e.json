@@ -1,0 +1,154 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "JUCE",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-JUCE-Debug-686b12b5c578095e8535.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "JUCE"
+				},
+				{
+					"build" : "JUCE/modules",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-JUCE.modules-Debug-a1ce62e4a23240be816e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "JUCE/modules"
+				},
+				{
+					"build" : "JUCE/modules/juce_audio_plugin_client",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-JUCE.modules.juce_audio_plugin_client-Debug-6a4aedf04ee7380451a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "JUCE/modules/juce_audio_plugin_client",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "JUCE/extras/Build",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-JUCE.extras.Build-Debug-3b65d93d5d984d19e246.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "JUCE/extras/Build"
+				},
+				{
+					"build" : "JUCE/extras/Build/juceaide",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-JUCE.extras.Build.juceaide-Debug-713ea6146246fa2bc687.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "JUCE/extras/Build/juceaide"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ModernCMakeExample"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "JUCE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "juce_lv2_helper::@6b9d30882e721299dd9a",
+					"jsonFile" : "target-juce_lv2_helper-Debug-b3d4691a77221a882bbe.json",
+					"name" : "juce_lv2_helper",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug",
+		"source" : "C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
