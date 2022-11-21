@@ -2,6 +2,15 @@
 -- Configuring juceaide
 -- Building juceaide
 -- Exporting juceaide
+CMake Warning at JUCE/extras/Build/CMake/JUCEUtils.cmake:469 (message):
+  The plugin manufacturer code must contain exactly four characters, but it
+  was set to 'Thl'
+Call Stack (most recent call first):
+  JUCE/extras/Build/CMake/JUCEUtils.cmake:1203 (_juce_to_char_literal)
+  JUCE/extras/Build/CMake/JUCEUtils.cmake:1806 (_juce_configure_plugin_targets)
+  CMakeLists.txt:15 (juce_add_plugin)
+
+
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug
