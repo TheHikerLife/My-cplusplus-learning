@@ -3,3 +3,7 @@ a.exe
 a.out
 
 main.exe
+
+JUCE/
+
+cmake-build-debug/
