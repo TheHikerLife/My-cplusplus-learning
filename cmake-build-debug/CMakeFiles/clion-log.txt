@@ -1,17 +1,4 @@
 "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning" -B "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug"
-CMake Error at CMakeLists.txt:18 (add_subdirectory):
-  add_subdirectory given source "AudioPlugin" which is not an existing
-  directory.
-
-
-CMake Error at CMakeLists.txt:19 (add_subdirectory):
-  add_subdirectory given source "ConsoleApp" which is not an existing
-  directory.
-
-
-CMake Error at CMakeLists.txt:20 (add_subdirectory):
-  add_subdirectory given source "GuiApp" which is not an existing directory.
-
-
--- Configuring incomplete, errors occurred!
-See also "C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug

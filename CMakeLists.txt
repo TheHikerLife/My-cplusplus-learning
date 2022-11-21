@@ -10,7 +10,7 @@ project(
         LANGUAGES CXX)
 
 
-
+add_subdirectory(JUCE)
 
 # see this https://github.com/juce-framework/JUCE/blob/master/examples/CMake/AudioPlugin/CMakeLists.txt
 # to make vst
@@ -18,6 +18,3 @@ project(
 
 
 
-add_subdirectory(AudioPlugin)
-add_subdirectory(ConsoleApp)
-add_subdirectory(GuiApp)
