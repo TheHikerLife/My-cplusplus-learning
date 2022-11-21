@@ -18,7 +18,7 @@
 #############################################
 # Minimal version of Ninja required by this file
 
-ninja_required_version = 1.5
+ninja_required_version = 1.8
 
 
 #############################################
@@ -63,8 +63,437 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build JUCE/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build JUCE/edit_cache: phony JUCE/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build JUCE/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning" -B"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build JUCE/rebuild_cache: phony JUCE/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build JUCE/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build JUCE/CMakeFiles/install.util: CUSTOM_COMMAND JUCE/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build JUCE/install: phony JUCE/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build JUCE/CMakeFiles/install/local.util: CUSTOM_COMMAND JUCE/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build JUCE/install/local: phony JUCE/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build JUCE/CMakeFiles/install/strip.util: CUSTOM_COMMAND JUCE/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build JUCE/install/strip: phony JUCE/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/JUCE/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build JUCE/modules/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build JUCE/modules/edit_cache: phony JUCE/modules/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build JUCE/modules/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning" -B"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build JUCE/modules/rebuild_cache: phony JUCE/modules/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build JUCE/modules/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build JUCE/modules/CMakeFiles/install.util: CUSTOM_COMMAND JUCE/modules/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build JUCE/modules/install: phony JUCE/modules/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build JUCE/modules/CMakeFiles/install/local.util: CUSTOM_COMMAND JUCE/modules/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build JUCE/modules/install/local: phony JUCE/modules/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build JUCE/modules/CMakeFiles/install/strip.util: CUSTOM_COMMAND JUCE/modules/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build JUCE/modules/install/strip: phony JUCE/modules/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/JUCE/modules/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target juce_lv2_helper
+
+
+#############################################
+# Order-only phony target for juce_lv2_helper
+
+build cmake_object_order_depends_target_juce_lv2_helper: phony || JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir
+
+build JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/LV2/juce_LV2TurtleDumpProgram.cpp.obj: CXX_COMPILER__juce_lv2_helper_Debug C$:/Users/Baptiste$ Bulabois/CLionProjects/My-cplusplus-learning/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2TurtleDumpProgram.cpp || cmake_object_order_depends_target_juce_lv2_helper
+  DEP_FILE = JUCE\modules\juce_audio_plugin_client\CMakeFiles\juce_lv2_helper.dir\LV2\juce_LV2TurtleDumpProgram.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = JUCE\modules\juce_audio_plugin_client\CMakeFiles\juce_lv2_helper.dir
+  OBJECT_FILE_DIR = JUCE\modules\juce_audio_plugin_client\CMakeFiles\juce_lv2_helper.dir\LV2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target juce_lv2_helper
+
+
+#############################################
+# Link the executable JUCE\modules\juce_audio_plugin_client\juce_lv2_helper.exe
+
+build JUCE/modules/juce_audio_plugin_client/juce_lv2_helper.exe: CXX_EXECUTABLE_LINKER__juce_lv2_helper_Debug JUCE/modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/LV2/juce_LV2TurtleDumpProgram.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = JUCE\modules\juce_audio_plugin_client\CMakeFiles\juce_lv2_helper.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = JUCE\modules\juce_audio_plugin_client\juce_lv2_helper.exe
+  TARGET_IMPLIB = JUCE\modules\juce_audio_plugin_client\libjuce_lv2_helper.dll.a
+  TARGET_PDB = juce_lv2_helper.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build JUCE/modules/juce_audio_plugin_client/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules\juce_audio_plugin_client" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build JUCE/modules/juce_audio_plugin_client/edit_cache: phony JUCE/modules/juce_audio_plugin_client/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build JUCE/modules/juce_audio_plugin_client/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules\juce_audio_plugin_client" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning" -B"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build JUCE/modules/juce_audio_plugin_client/rebuild_cache: phony JUCE/modules/juce_audio_plugin_client/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build JUCE/modules/juce_audio_plugin_client/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build JUCE/modules/juce_audio_plugin_client/CMakeFiles/install.util: CUSTOM_COMMAND JUCE/modules/juce_audio_plugin_client/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules\juce_audio_plugin_client" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build JUCE/modules/juce_audio_plugin_client/install: phony JUCE/modules/juce_audio_plugin_client/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build JUCE/modules/juce_audio_plugin_client/CMakeFiles/install/local.util: CUSTOM_COMMAND JUCE/modules/juce_audio_plugin_client/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules\juce_audio_plugin_client" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build JUCE/modules/juce_audio_plugin_client/install/local: phony JUCE/modules/juce_audio_plugin_client/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build JUCE/modules/juce_audio_plugin_client/CMakeFiles/install/strip.util: CUSTOM_COMMAND JUCE/modules/juce_audio_plugin_client/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\modules\juce_audio_plugin_client" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build JUCE/modules/juce_audio_plugin_client/install/strip: phony JUCE/modules/juce_audio_plugin_client/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/JUCE/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build JUCE/extras/Build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build JUCE/extras/Build/edit_cache: phony JUCE/extras/Build/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build JUCE/extras/Build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning" -B"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build JUCE/extras/Build/rebuild_cache: phony JUCE/extras/Build/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build JUCE/extras/Build/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build JUCE/extras/Build/CMakeFiles/install.util: CUSTOM_COMMAND JUCE/extras/Build/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build JUCE/extras/Build/install: phony JUCE/extras/Build/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build JUCE/extras/Build/CMakeFiles/install/local.util: CUSTOM_COMMAND JUCE/extras/Build/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build JUCE/extras/Build/install/local: phony JUCE/extras/Build/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build JUCE/extras/Build/CMakeFiles/install/strip.util: CUSTOM_COMMAND JUCE/extras/Build/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build JUCE/extras/Build/install/strip: phony JUCE/extras/Build/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/JUCE/extras/Build/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build JUCE/extras/Build/juceaide/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build\juceaide" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build JUCE/extras/Build/juceaide/edit_cache: phony JUCE/extras/Build/juceaide/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build JUCE/extras/Build/juceaide/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build\juceaide" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning" -B"C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build JUCE/extras/Build/juceaide/rebuild_cache: phony JUCE/extras/Build/juceaide/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build JUCE/extras/Build/juceaide/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build JUCE/extras/Build/juceaide/CMakeFiles/install.util: CUSTOM_COMMAND JUCE/extras/Build/juceaide/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build\juceaide" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build JUCE/extras/Build/juceaide/install: phony JUCE/extras/Build/juceaide/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build JUCE/extras/Build/juceaide/CMakeFiles/install/local.util: CUSTOM_COMMAND JUCE/extras/Build/juceaide/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build\juceaide" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build JUCE/extras/Build/juceaide/install/local: phony JUCE/extras/Build/juceaide/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build JUCE/extras/Build/juceaide/CMakeFiles/install/strip.util: CUSTOM_COMMAND JUCE/extras/Build/juceaide/all
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Baptiste Bulabois\CLionProjects\My-cplusplus-learning\cmake-build-debug\JUCE\extras\Build\juceaide" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build JUCE/extras/Build/juceaide/install/strip: phony JUCE/extras/Build/juceaide/CMakeFiles/install/strip.util
+
 # =============================================================================
 # Target aliases.
+
+build juce_lv2_helper: phony JUCE/modules/juce_audio_plugin_client/juce_lv2_helper.exe
+
+build juce_lv2_helper.exe: phony JUCE/modules/juce_audio_plugin_client/juce_lv2_helper.exe
 
 # =============================================================================
 # Folder targets.
@@ -74,23 +503,72 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug
 
-build all: phony
+build all: phony JUCE/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/JUCE
+
+build JUCE/all: phony JUCE/modules/all JUCE/extras/Build/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/JUCE/extras/Build
+
+build JUCE/extras/Build/all: phony JUCE/extras/Build/juceaide/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/JUCE/extras/Build/juceaide
+
+build JUCE/extras/Build/juceaide/all: phony
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/JUCE/modules
+
+build JUCE/modules/all: phony JUCE/modules/juce_audio_plugin_client/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Baptiste Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/JUCE/modules/juce_audio_plugin_client
+
+build JUCE/modules/juce_audio_plugin_client/all: phony JUCE/modules/juce_audio_plugin_client/juce_lv2_helper.exe
 
 # =============================================================================
 # Built-in targets
 
 
 #############################################
+# Phony target to force glob verification run.
+
+build C$:/Users/Baptiste$ Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force: phony
+
+
+#############################################
+# Re-run CMake to check if globbed directories changed.
+
+build C$:/Users/Baptiste$ Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | C$:/Users/Baptiste$ Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force
+  pool = console
+  restat = 1
+
+
+#############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE C$:/Users/Baptiste$ Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/CMakeFiles/cmake.verify_globs | ../CMakeLists.txt ../JUCE/CMakeLists.txt ../JUCE/extras/Build/CMakeLists.txt ../JUCE/extras/Build/CMake/JUCECheckAtomic.cmake ../JUCE/extras/Build/CMake/JUCEConfig.cmake.in ../JUCE/extras/Build/CMake/JUCEHelperTargets.cmake ../JUCE/extras/Build/CMake/JUCEModuleSupport.cmake ../JUCE/extras/Build/CMake/JUCEUtils.cmake ../JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp ../JUCE/extras/Build/juceaide/CMakeLists.txt ../JUCE/modules/CMakeLists.txt ../JUCE/modules/juce_audio_plugin_client/CMakeLists.txt C$:/Users/Baptiste$ Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/BasicConfigVersion-ExactVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake JUCE/tools/JUCEToolsExport.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../JUCE/CMakeLists.txt ../JUCE/extras/Build/CMakeLists.txt ../JUCE/extras/Build/CMake/JUCECheckAtomic.cmake ../JUCE/extras/Build/CMake/JUCEConfig.cmake.in ../JUCE/extras/Build/CMake/JUCEHelperTargets.cmake ../JUCE/extras/Build/CMake/JUCEModuleSupport.cmake ../JUCE/extras/Build/CMake/JUCEUtils.cmake ../JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp ../JUCE/extras/Build/juceaide/CMakeLists.txt ../JUCE/modules/CMakeLists.txt ../JUCE/modules/juce_audio_plugin_client/CMakeLists.txt C$:/Users/Baptiste$ Bulabois/CLionProjects/My-cplusplus-learning/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/BasicConfigVersion-ExactVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake JUCE/tools/JUCEToolsExport.cmake: phony
 
 
 #############################################
